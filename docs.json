@@ -1,0 +1,78 @@
+{
+  "theme": "mint",
+  "name": "睿阁",
+  "colors": {
+    "primary": "#0057ff",
+    "light": "#0066ff",
+    "dark": "#0057ff"
+  },
+  "description": "用户手册｜涵盖睿阁知识库搭建、智能体管理、团队协作、对话问答全流程操作指南，助你快速构建企业级 AI 知识中枢。",
+  "navigation": {
+    "languages": [
+      {
+        "language": "zh",
+        "groups": [
+          {
+            "group": "快速入门",
+            "icon": "bullseye-arrow",
+            "pages": [
+              "zh/Overview",
+              "zh/getting-started/01-access-login",
+              "zh/getting-started/02-interface-overview"
+            ]
+          },
+          {
+            "group": "核心概念",
+            "icon": "atom-alt",
+            "pages": [
+              "zh/concepts/01-knowledge-base",
+              "zh/concepts/02-agent",
+              "zh/concepts/03-team-collaboration"
+            ]
+          },
+          {
+            "group": "操作指南",
+            "icon": "compass",
+            "pages": [
+              "zh/how-to/01-knowledge-base",
+              "zh/how-to/02-knowledge-base-settings",
+              "zh/how-to/03-agent",
+              "zh/how-to/04-agent-settings",
+              "zh/how-to/05-team",
+              "zh/how-to/06-chat",
+              "zh/how-to/07-global-search"
+            ]
+          },
+          {
+            "group": "教程",
+            "icon": "book-open-lines",
+            "pages": [
+              "zh/tutorials/01-first-knowledge-base"
+            ]
+          },
+          {
+            "group": "配置参考",
+            "icon": "tools",
+            "pages": [
+              "zh/reference/01-model-config",
+              "zh/reference/02-budget-guide",
+              "zh/reference/03-parser-engines",
+              "zh/reference/04-settings"
+            ]
+          },
+          {
+            "group": "支持",
+            "icon": "question-circle",
+            "pages": [
+              "zh/faq",
+              "zh/glossary"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "search": {
+    "prompt": "搜索"
+  }
+}
